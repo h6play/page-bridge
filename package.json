@@ -1,0 +1,41 @@
+{
+  "name": "bridge-page",
+  "description": "A bridge for page",
+  "author": "h6play@163.com",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "react",
+    "bridge",
+    "page"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h6play/page-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h6play/page-bridge/issues"
+  },
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "./dist/bridge.umd.cjs",
+  "module": "./dist/bridge.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/bridge.js",
+    "require": "./dist/bridge.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}
