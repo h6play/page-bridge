@@ -17,8 +17,8 @@ yarn add bridge-page
 
 ## System protocol
 
-- `@bridge/pages` Get a list of online pages
-- `@bridge/update` Register/update page data
+- `@bridge/create` Register page data
+- `@bridge/update` Update page data
 - `@bridge/delete` Delete specified page
 
 ## Usage example

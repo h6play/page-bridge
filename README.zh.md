@@ -17,8 +17,8 @@ yarn add bridge-page
 
 ## 系统协议
 
-- `@bridge/pages` 获取在线页面列表
-- `@bridge/update` 注册/更新页面数据
+- `@bridge/create` 注册页面数据
+- `@bridge/update` 更新页面数据
 - `@bridge/delete` 删除指定页面
 
 ## 使用示例
